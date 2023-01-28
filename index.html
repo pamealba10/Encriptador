@@ -1,0 +1,57 @@
+<!-- usar el signo de exclamacion o html:5-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- link de la fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/imagen/logoAlura.png" alt="logo de Alura" align="left">
+        <div>
+            <h1>Encriptador</h1>
+        </div>
+    
+    
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+                <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensaje" cols="19" rows="15" style="width: 328px; height: 607px;"></textarea>
+
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- archivo javascript -->
+    <script src="/script.js"></script>
+    <footer>
+        <p>&copy; 2023 Creado por Pamela Alba 💜</p>
+      </footer>
+    
+</body>
+</html>
