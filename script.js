@@ -3,7 +3,6 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
 const copia = document.querySelector(".copiar");
-/* copia.style.display = "none" */
 
 
 function validarTexto(){
@@ -33,7 +32,7 @@ function btnEncriptar(){
         mensaje.value = textoEncriptado
         mensaje.style.backgroundImage = "none"
         textArea.value = "";
-      /*  copiar.style.display = "none" */
+        copiar.style.display = "none" 
     }
 }
 
@@ -49,7 +48,6 @@ function encriptar(stringEncriptada){
     }
     return stringEncriptada
 }
-
 
 
 
